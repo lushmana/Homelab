@@ -1,2 +1,0 @@
-* Switched from Authelia to Google OAuth. Authelia seemed to have too much overhead for a single user environment.
-* updated README

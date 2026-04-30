@@ -1,5 +1,0 @@
-* Several updates 2021_05_14. See full commit log.
-* Added TOML examples for Nextcloud middlewares - https://www.smarthomebeginner.com/traefik-docker-nextcloud/ 
-* Obsoleted cloudplow - not using at this point/haven't set it up yet
-* Switched to radarr nightly. "latest" tag broke the UI.
-* Updated README.md

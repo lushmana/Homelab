@@ -1,4 +1,0 @@
-* Several updates 2021_08_09. See full commit log.
-* Updated auhelia to 4.30.0. Updated configuration.yml file based on https://www.authelia.com/docs/configuration/migration.html and https://github.com/authelia/authelia/blob/master/config.template.yml.
-* Updated redis to 6.2.5
-* Updated Traefik from 2.3.1 to 2.4.13

@@ -1,6 +1,0 @@
-* Several updates 2022_06_26. See full commit log.
-* Published my real middlewares.yml, middlewares-chains.yml, and tls-opts.yml, thanks to the previous commit that allowed usage of environmental variables in rules.
-* Added LOCAL_IPS and CLOUDFLARE_IPS variables to simplify Traefik compose.
-* Added CrowdSec, CrowdSec Dashboard, and Traefik Bouncer. This appears to be working well but will check for a few more days before publishing a separate guide on it.
-* Updated middlewares and chains to include crowdsec middleware. 
-* Updated Traefik logs and its path to support parsing with Crowdsec. Also separated traefik log and access log.

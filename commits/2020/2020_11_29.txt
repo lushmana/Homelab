@@ -1,1 +1,0 @@
-* Modified socket proxy to allow portainer connections to 2375 from local network.

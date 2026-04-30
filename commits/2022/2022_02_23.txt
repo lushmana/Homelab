@@ -1,7 +1,0 @@
-* Several updates 2022_02_23. See full commit log.
-* Updated traefik to 2.6.
-* Updated Docker Compose to v2.1.1. Above this version, Cloudflare Companion was not working and I cannot figure out why.
-* Changed cloudflare secrets (from cloudflare prefix to cf) to make them work with Cloudflare Companion.
-* Obsoleted Navidrom. Added Airsonic Advanced - I was used to the features in Airsonic.
-* Added Mariadb support for Airsonic.
-* Fixed StatPing MariadB connection issue: https://github.com/statping/statping/issues/260#issuecomment-541041752

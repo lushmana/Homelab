@@ -1,6 +1,0 @@
-* Several updates 2024_01_30. See full commit log.
-
-* Remove HTTPS redirect scheme middleware. Not used and redirects handled globally with CLI commands.
-* Changed entrypoint names from http/https to web/websecure to align with several online documentation.
-* Updated readme.
-* Changed basic auth secret from htpassd to basic_auth_credentials (just easier to understand)

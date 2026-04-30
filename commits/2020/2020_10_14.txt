@@ -1,5 +1,0 @@
-* Fixed firefox https://github.com/jlesage/docker-firefox/blob/master/README.md#allowing-the-membarrier-system-call
-* Fixed Oauth - removed secrets and went back to environmental variables 
-* Disabled traefik pilot and ping - did not see a need for it yet
-* Added duplicati - updated readme.md and change log
-* Fixed cf-companion. Went back to environmental variables with scoped token instead of secrets (not working)

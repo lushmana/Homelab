@@ -1,4 +1,0 @@
-* Several updates 2022_02_06. See full commit log.
-* Moved homeserver rules and scripts (main docker-compose-t2.yml) to its own folders
-* Fixed oauth secrets. It works now. See https://github.com/htpcBeginner/docker-traefik/pull/229. 
-* Fixed bugs in bash_aliases

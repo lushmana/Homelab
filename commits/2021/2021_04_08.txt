@@ -1,3 +1,0 @@
-* Several updates 2021_04_08. See full commit log.
-* Updated cloudflare IPs removed 104.16.0.0/12 and added 104.16.0.0/13,104.24.0.0/14
-* Updated traefik from picodon (v2.3.x) to livarot (v2.4.x)

@@ -1,7 +1,0 @@
-* Several updates 2022_06_15. See full commit log.
-* There was lot of push back on the move to extension fields, which reduced readability. Simplified it a bit but not abandoning it at this point.
-* Moving smarthomebeginner.com to Proxmox VM on a unreliable dedicated server provider was a failure. So moved it back to digital ocean VPS so the website is not affected during my meddling with the homeserver.
-* Got a separate domain name for home server - previously shared domain name with my cloud proxmox server. This means CF-DDNS on Synology now does not use a subdomain any more.
-* Obsoleted Cloudflare Companion - resorted to just using a wildcard CNAME pointing to the root domain instead of creating CNAME DNS records on the fly.
-* Upgraded to the new Docker Compose V2, which is now built into Docker as a plugin. https://docs.docker.com/compose/#compose-v2-and-the-new-docker-compose-command. So from now on it is "docker compose" command instead of "docker-compose". Also there is no need to manually install and ugprade Docker Compose (except on Synology).
-* Minor changes with bash_aliases to reflect the changes in servers/hosts.

@@ -1,3 +1,0 @@
-* Several updates 2022_06_19. See full commit log.
-* Renamed "homeserver" to "cloudserver" wherever applicable (scripts, logs, traefik rules, etc.). "homeserver" actually referred to my Proxmox server in the cloud and Synology is my Docker-Traefik server at home.
-* Added domain name variables to Traefik environment, to pass the variable into container. This allows using {{env "DOMAINNAME_CLOUD_SERVER"}} in Traefik dynamic rules to refer to domain names.

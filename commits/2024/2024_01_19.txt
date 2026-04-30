@@ -1,8 +1,0 @@
-* Several updates 2024_01_19. See full commit log.
-
-* Biggest structural change in a long time to align with what Auto-Traefik does.
-    - Renamed all Docker compose files (remove t2 suffix)
-    - Now all docker compose files have their hostname as suffix (for my 5 Docker hosts)
-* Split the big long docker compose files into individual service YMLs using Docker include: /compose folder.
-* Moved all archived compose files into /compose/archives.
-* Updated bash aliases - docker commands simplified, and more.

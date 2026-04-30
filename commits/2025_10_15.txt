@@ -1,7 +1,0 @@
-* Several updates 2025_10_15. See full commit log.
-* Big update after several months. I was focussed on updating the UDMS guides and developing Deployrr.  
-* Rebuilt Home Server (hs) and Web Server (ws-arm) from scratch using Deployrr and UDMS Series 2025. Synology will be updated at somepoint.
-* Traefik udpated to v3. 
-* Updated .env.example to match Deployrr/UDMS standards.
-* Updated README.md with current information and links to latest UDMS guides and videos.
-* Manually switched Google OAuth (Traefik Forward Auth) from thomseddon/traefik-forward-auth:latest to italypaleale/traefik-forward-auth:4 (maintained regularly at this time + more features). Deployrr will be updated at some point. 

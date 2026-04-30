@@ -1,7 +1,0 @@
-* Several updates 2022_02_04. See full commit log.
-* Moved bash_aliases to /shared/config/
-* Implemented bash_aliases.env to hide sensitive information, which will allow me to share my current bash_aliases which keeps evolving
-* Customized bash_aliases so i can share it among different hosts and yet tweak them automatically depending on the host (eg. aliases picking the right docker-compose files on various platforms)
-* Moved platform-specific traefik rules to specific folders so i can share the repo among several of my devices
-* Changed default domain to DOMAINNAME0 and the rest to $DOMAINNAME1 and 2 align the docker-compose files
-* Updated README

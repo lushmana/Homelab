@@ -1,6 +1,0 @@
-* Several updates. See full commit log.
-* Moved nzblog back to docker folder, reversing previous commit.
-* Changed transmission logs to LOG_TO_STDOUT: "true". Log file was huge.
-* Disabled statping logs until i am not ready to use it.
-* Modified rclone logrotate to include .log files.
-* Added comments to clarify why MediaCover and Plex metadata folders were mounted as volumes.

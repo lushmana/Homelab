@@ -1,7 +1,0 @@
-* Several updates 2024_05_30. See full commit log.
-* Added MakeMKV, MKVToolNix, to homeserver
-* Authelia upgraded to 4.38.8 and example configuration.yml and users.yml updated.
-* Jellyfin does not work on WebOS via Traefik Proxy. Created new security headers (without SAMEORIGIN) to allow Jellyfin to work
-* Removed obsolete shell scripts. Will reupload them as I update them.
-* Updated start-media-after-boot.sh.example to start media containers after Rclone mounts load.
-* Updated bash_aliases

@@ -1,5 +1,0 @@
-Obsoleted Traefik error pages. Did not spend anymore time on it and don't see the value in doing so.
-Added TLS options. Changed HostHeader to Host rule.
-Added Host rule to certain services (auth bypass)
-Added GZIP compression middleware
-Upgrading Traefik from cheverotin (2.2.x) to 2.3.x (picodin)
