@@ -72,10 +72,6 @@ Platform: DSM 7.X
 Resources: 8GB RAM, DX517 Expansion Unit, Volume1 - 4x18TB SHR2, Volume 2 - 4x18TB SHR2
 Purpose: I use this only for tinkering with Docker
 ```
-
-### 📁 Archives
-Legacy configurations in `archives` folder - not actively maintained but useful as reference.
-
 ---
 
 ## 📚 Learning Resources
@@ -126,17 +122,6 @@ Legacy configurations in `archives` folder - not actively maintained but useful 
 29. Advanced Topics: [CrowdSec Multiserver Setup](https://www.simplehomelab.com/udms-29-crowdsec-multiserver/)
 30. Closing Thoughts and Options to Level Up *(Coming Soon)*
 
-### 📖 Additional Guides
-
-#### 🏢 Synology NAS
-- [Ultimate Synology NAS Docker Compose Media Server 2022](https://www.simplehomelab.com/synology-nas-docker-media-server-2022/) *(Update Pending)*
-
-#### 🌐 Web Server
-- [WordPress on Docker with Nginx, Traefik, LE SSL, Security, and Speed](https://www.simplehomelab.com/wordpress-on-docker-traefik/) *(Update Pending)*
-
-#### 🤖 Automation
-- [Deployrr: Automate Docker Compose based Homelab Setup](https://www.simplehomelab.com/deployrr/) [📹](https://youtu.be/OnoKy73b-w4)
-
 ---
 
 ## 🚀 Featured Applications
@@ -144,8 +129,6 @@ Legacy configurations in `archives` folder - not actively maintained but useful 
 **150+ Docker applications** ready for deployment, sourced from the [Deployrr Repository](https://github.com/SimpleHomelab/Deployrr/blob/main/APPS.md):
 
 Adminer, Airsonic-Advanced, Authentik, Audiobookshelf, Authelia, Baikal, Bazarr, Beets, Bookstack, cAdvisor, Calibre, Calibre-Web, Change Detection, Chromium, Cleanuparr, Cloud Commander, Cloudflare Tunnel, CrowdSec, CrowdSec Firewall Bouncer, CyberChef, Dashy, DDNS Updater, DeUnhealth, DigiKam, Dockwatch, Docker Garbage Collection, DokuWiki, Double Commander, Dozzle, Dozzle Agent, DweebUI, Emby, ESPHome, FileZilla, Flame, Flaresolverr, Flowise, FreshRSS, Funkwhale, GameVault, Glances, Gluetun, Gonic, Gotenberg, GPTWOL, Grafana, Grocy, Guacamole, Heimdall, Homarr, Home Assistant Core, Homebridge, Homer, Homepage, Huntarr, Immich, InfluxDB, IT-Tools, Jackett, Jellyfin, Jellyseerr, Kasm, Kavita, Kometa, Komga, Lidarr, Lollypop, Maintainerr, MariaDB, Mosquitto, MQTTX Web, Mylar3, n8n, Navidrome, Netdata, Nextcloud, Node Exporter, Node-RED, Notifiarr, OAuth, Ollama, Ombi, OpenHands, Open-WebUI, Organizr, Overseerr, Paperless-AI, Paperless-NGX, PdfDing, PgAdmin, phpMyAdmin, Pi-hole, Piwigo, Plex, Portainer, PostgreSQL, Privatebin, Prometheus, Prowlarr, qBittorrent, qBittorrent with VPN, Qdrant, Radarr, Redis, Redis Commander, Remmina, Resilio Sync, SABnzbd, Scrutiny, SearXNG, ShellInABox, Smokeping, Socket Proxy, Sonarr, Speedtest-Tracker, SSHwifty, Stirling PDF, Tailscale, Tautulli, The Lounge, Theme Park, Tika, TinyAuth, Traefik, Traefik Access Logs, Traefik Bouncer, Traefik Certs Dumper, Traefik Error Logs, Transmission, Trilium Next, Uptime-Kuma, Vaultwarden, Vikunja, Visual Studio Code Server, Wallos, Watchtower, Weaviate, WG-Easy, What's Up Docker (WUD), WikiDocs, Wireguard, and ZeroTier.
-
-**Custom Apps** not supported by Deployrr yet (e.g. Nginx, PHP, etc.)
 
 ---
 
@@ -169,20 +152,3 @@ I use **Bash Aliases** installed via Deployrr for streamlined Docker management:
 
 ---
 
-## 🤝 Support & Community
-
-**Documenting, writing guides, and maintaining this repository** requires hundreds of hours of dedicated work. Your support helps keep this project alive and continuously updated.
-
-### 🎖️ Join the Geek Army
-<div style="text-align:center;margin:20px">
-<a href="https://www.simplehomelab.com/geek-army/join/" target="_blank" rel="nofollow noopener noreferrer">
-<img src="https://www.simplehomelab.com/images/2024/01/become-a-member.png" alt="Join the Geek Army" width="258" height="76" />
-</a>
-</div>
-
-### 💬 Join the Discord Community
-<div style="text-align:center;margin:20px">
-<a href="https://www.simplehomelab.com/discord-github/" target="_blank" rel="nofollow noopener noreferrer">
-<img src="https://www.simplehomelab.com/images/2022/05/join-discord-300x75.png" alt="Join Discord" width="300" height="75" />
-</a>
-</div>
