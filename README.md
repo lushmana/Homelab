@@ -1,8 +1,7 @@
-# 🐳 Ultimate Docker-Traefik Repo by Anand
+# 🐳 Ultimate Docker-Traefik Repo by Andrew Lush
 
-> **Real-world Docker configurations** from Anand at [SimpleHomelab.com](https://www.simplehomelab.com/) (formerly SmartHomeBeginner.com)
+> **Real-world Docker configurations** from Andrew at [SimpleHomelab.com](https://www.simplehomelab.com/) (formerly SmartHomeBeginner.com)
 
-[![Deployrr](https://img.shields.io/badge/Powered%20by-Deployrr-blue?style=flat-square)](https://www.simplehomelab.com/deployrr/)
 [![UDMS Series](https://img.shields.io/badge/UDMS-Series-green?style=flat-square)](https://www.simplehomelab.com/ultimate-docker-media-server-udms-01/)
 [![150+ Apps](https://img.shields.io/badge/Apps-150%2B-orange?style=flat-square)](#-featured-applications)
 
@@ -12,12 +11,10 @@
 
 This repository contains my **actual production Docker setups** that power my homelab infrastructure. Unlike theoretical guides, these are real-world configurations that I use daily.
 
-My setup is based on [Deployrr](https://www.simplehomelab.com/deployrr/) and [Ultimate Docker Media Server](https://www.simplehomelab.com/ultimate-docker-media-server-udms-01/) series. 
+My setup is based on [Ultimate Docker Media Server](https://www.simplehomelab.com/ultimate-docker-media-server-udms-01/) series. 
 
 ### 🎯 Repository Purpose
 1. **Share actual setups** - Real configurations I use in production
-2. **Extend Deployrr capabilities** - Examples beyond standard Deployrr templates
-
 ---
 
 ## 🖥️ Infrastructure Overview
