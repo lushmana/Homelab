@@ -1,3 +1,15 @@
+# Create the Ubuntu LXC Container
+Next, to create the LXC container, click "Create CT" on Proxmox Web Interface, typically found in the right-top corner.
+Under the "General" tab, set the container ID to anything you want (100-999; I am picking 100), Hostname (e.g., "udms" for Ultimate Docker Media Server), and a password for the "root" user. 
+Ensure "Unprivileged container" and "Nesting" options are checked.
+Then, under the "Template" tab, pick the storage location where you downloaded the Ubuntu template and the actual template file you downloaded, as shown in the image below.
+The "Disks" section is highly customizable depending on your situation. I have my stuff stored in a NAS, so all I need is a disk to run the OS. Therefore, I am picking one disk of size 96 GB (customize it to your liking) in my ZFS mirrored storage. Enable ACLs. Typically, I also like to enable noatime (reduces disk i/o) and discard (since I am using an SSD), for mount options.
+It is a good practice to assign a static IP address to a home server. But before you do that, ensure that the IP address is not already allocated to another device. You can find this information on your router page. Alternatively, you can choose DHCP now and come back to the LXC's "Network" page to find out what IP was assigned and convert that into a static assignment.
+
+Pay attention to the format of the IP and gateway IP specifications. DNS will be configured later.
+Then, check if everything looks OK. Leave "Start after created" disabled for now as we will need to make additional changes to the LXC configuration.
+Finally, go to the LXC "Options" tab and enable "Start at boot" to make the LXC start when Proxmox starts. Edit the "Features" and enable keyctl and FUSE.
+
 # Update the OS
 Most fresh OS installations lack all the security and package updates. So, let's take care of that next.
 Run the following commands to refresh the packages list and install any updates.
