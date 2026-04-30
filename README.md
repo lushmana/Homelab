@@ -54,21 +54,6 @@ Resources: 12 vCPU, 12GB RAM, 4GB Swap
 Storage: 64GB OS + 72GB Docker data
 Purpose: Media servers and databases - Separate so they are not affected by my tinkering
 ```
-
-### 🌐 Web Server (prefix/suffix: `ws-arm`)
-```yaml
-Platform: Ubuntu 24.04 ARM64 on Oracle Cloud
-Resources: 4 vCPU, 24GB RAM
-Storage: 100GB OS + 100GB data
-Purpose: Web Server (Nginx, PHP-FPM 8, WordPress, etc.), n8n, Flowise, and more
-```
-
-### 💾 Synology NAS (prefix/suffix: `ds918`)
-```yaml
-Platform: DSM 7.X
-Resources: 8GB RAM, DX517 Expansion Unit, Volume1 - 4x18TB SHR2, Volume 2 - 4x18TB SHR2
-Purpose: I use this only for tinkering with Docker
-```
 ---
 
 ## 📚 Learning Resources
